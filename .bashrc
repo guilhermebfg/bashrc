@@ -70,4 +70,4 @@ extract() {
   return 0
 }
 
-PS1="$ "
+export PS1="[\W]>\\$ \[$(tput sgr0)\]"
